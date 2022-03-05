@@ -2,17 +2,17 @@
 public class PointDemo {
     public static void main(String[] args) {
         // creating instances of "Point" class
-        Point Point1 = new Point();
-        Point1.setPoint(4, 7);
+        Point p1 = new Point();
+        p1.setPoint(4, 7);
 
-        Point Point2 = new Point();
-        Point2.setPoint(3, 6);
+        Point p2 = new Point();
+        p2.setPoint(3, 6);
 
         // calling "showPoint" method
-        Point1.showPoint();
+        p1.showPoint();
 
         // calling "findDistance" method and printing its value
-        System.out.println(Point.findDistance(Point2, Point1));
+        System.out.println(Point.findDistance(p2, p1));
     }
 }
 
