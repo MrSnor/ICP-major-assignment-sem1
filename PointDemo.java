@@ -29,7 +29,7 @@ class Point {
     // method to display values of a "Point"
     void showPoint(){
         System.out.println(String.format("x coordinate is %d & \ny coordinate is %d",
-        this.x,this.y));
+        x,y));
     }
 
     // method to find distance between 2 given points
