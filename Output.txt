@@ -7,4 +7,4 @@ Output of PointDemo.java -
 
 For p1 : x coordinate is 4 & y coordinate is 7
 For p2 : x coordinate is 3 & y coordinate is 6
-1.4142135623730951
+Distance between the two points is 1.4142135623730951

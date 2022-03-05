@@ -13,7 +13,7 @@ public class PointDemo {
         System.out.println("For p2 : " + p2.showPoint());
 
         // calling "findDistance" method and printing its value
-        System.out.println(Point.findDistance(p2, p1));
+        System.out.println("Distance between the two points is "+Point.findDistance(p2, p1));
     }
 }
 
