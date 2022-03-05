@@ -9,7 +9,8 @@ public class PointDemo {
         p2.setPoint(3, 6);
 
         // calling "showPoint" method
-        p1.showPoint();
+        System.out.println("For p1 : " + p1.showPoint());
+        System.out.println("For p2 : " + p2.showPoint());
 
         // calling "findDistance" method and printing its value
         System.out.println(Point.findDistance(p2, p1));
@@ -27,9 +28,9 @@ class Point {
     }
 
     // method to display values of a "Point"
-    void showPoint(){
-        System.out.println(String.format("x coordinate is %d & \ny coordinate is %d",
-        x,y));
+    String showPoint() {
+        return String.format("x coordinate is %d & y coordinate is %d",
+                x, y);
     }
 
     // method to find distance between 2 given points
